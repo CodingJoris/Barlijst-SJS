@@ -1,6 +1,6 @@
 // Barlijst service worker: laadt de app ook zonder internet.
 // Verzoeken naar Google (de Sheet) worden NIET onderschept.
-const CACHE = 'barlijst-v3-3';
+const CACHE = 'barlijst-v3-4';
 const BESTANDEN = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
